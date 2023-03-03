@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeterHomeAssignmentInventoryManagerApp", "KeterHomeAssignmentInventoryManagerApp.csproj", "{EB8B3566-A4B1-47F3-AC20-C3FE190A3EB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InventoryApp", "InventoryApp", "{EA76A996-0E0A-4CA3-AF0C-559F74B7CF7B}"
+	ProjectSection(SolutionItems) = preProject
+		ClientApp\.gitignore = ClientApp\.gitignore
+		ClientApp\index.html = ClientApp\index.html
+		ClientApp\package.json = ClientApp\package.json
+		ClientApp\README.md = ClientApp\README.md
+		ClientApp\tsconfig.json = ClientApp\tsconfig.json
+		ClientApp\tsconfig.node.json = ClientApp\tsconfig.node.json
+		ClientApp\vite.config.ts = ClientApp\vite.config.ts
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB8B3566-A4B1-47F3-AC20-C3FE190A3EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8B3566-A4B1-47F3-AC20-C3FE190A3EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8B3566-A4B1-47F3-AC20-C3FE190A3EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8B3566-A4B1-47F3-AC20-C3FE190A3EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81B4A40E-45A8-4BCC-9A20-36A1CF654207}
+	EndGlobalSection
+EndGlobal

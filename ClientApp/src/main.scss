@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#app {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.trash-button {
+    background-color: rgb(252, 84, 84);
+
+    &:hover {
+        background-color: rgb(255, 136, 136);
+    }
+
+    svg {
+        path {
+            stroke: rgb(102, 0, 0);
+        }
+    }
+}
+
+.edit-button {
+    background-color: rgb(252, 210, 84);
+
+    &:hover {
+        background-color: rgb(255, 233, 136);
+    }
+
+    svg {
+        path {
+            stroke: rgb(102, 66, 0);
+        }
+    }
+}
+
+.add-button {
+    background-color: rgb(84, 104, 252);
+
+    &:hover {
+        background-color: rgb(136, 152, 255);
+    }
+
+    svg {
+        path {
+            stroke: rgb(0, 22, 102);
+        }
+    }
+}
+
+.save-button {
+    background-color: rgb(84, 252, 106);
+
+    &:hover {
+        background-color: rgb(136, 255, 140);
+    }
+
+    svg {
+        path {
+            stroke: rgb(0, 102, 0);
+        }
+    }
+}
